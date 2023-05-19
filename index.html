@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<HTML lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">
+        <title>Encriptador/Desencriptador</title>
+        <link rel="Icon" href="icono.jpg">
+    </head>
+
+    <body>
+        <header>
+            <img class="logo" src="Logo.svg" alt="logo de alura">
+        </header>
+
+        <main>
+            <section>
+                <textarea class="text-area" cols="30" rows="10" placeholder="ingrese el texto aqui"></textarea>
+            <div class="alerta">
+                <img src="alerta.svg" alt="alerta">
+                <p>Solo letras minusculas y sin acentos</p>
+            </div>
+                <div class="botones">
+                    <button class="btn-encriptar">Encriptar</button>
+                    <button class="btn-desencriptar">Desencriptar</button>
+                </div>
+            </section>
+
+            <section class="seccion2">
+                <div class="contenedor-muñeco">
+                    <img src="Muñeco.svg" alt="muñeco">
+                </div>
+                <div class="contenedor-parrafo">
+                    <h3>Ningun mensaje fue <br> encontrado</h3>
+                    <p>ingresa el texto que desees encriptar o <br> desencriptar</p>
+                </div>
+                <div class="contenedor-copiar">
+                    <input type="button" class="btn-copiar" value="Copiar">
+                </div>
+                <div class="contenedor-resultado">
+                    <p class="texto-resultado"></p>
+                </div>
+            </section>
+        </main>
+
+        <footer class="pie-pagina">
+            <section class="grupo-1">
+                <div class="box">
+                    <figure>
+                        <a href="#">
+                            <img src="Logo.svg" alt="Logo Oracle One">
+                        </a>
+                    </figure>
+                </div>
+                <div class="box">
+                    <h2>Breve Explicacion</h2>
+                    <p>Este proyecto fue realizado por Alex para el Primer Challengue de Oracle One Next Education grupo 5.</p>
+                </div>
+                <div class="box">
+                    <h2>Sigueme</h2>
+                        <div class="red-social">
+                            <a href="https://www.linkedin.com/in/alex-su%C3%A1rez-611609272/#" class="fa fa-linkedin"></a>
+                            <a href="https://github.com/Ascian159" class="fa fa-github"></a>
+                        </div>
+                </div>
+            </section>
+
+            <section class="grupo-2">
+                <small>&copy; <span id="año-actual"></span> <b>Alex Suarez</b> -Todos los derechos reservados. </small>
+            </section>
+        </footer>
+
+        <script src="script.js"></script>
+        <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    </body>
+</HTML>
